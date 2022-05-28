@@ -1,0 +1,51 @@
+body{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+.sub{
+    width: 30%;
+    margin: auto;
+    padding: .5em;
+    color: white;
+    background-color: blue;
+    border: none;
+    font-size: 1em;
+}
+.sub:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+   
+}
+table{
+    border-collapse: separate;
+    border-spacing: 1em;
+    text-align: center;
+}
+.genius{
+    background: url(genius.png);
+}
+.genius2{
+    background: url(https://c.tenor.com/pMhSj9NfCXsAAAAC/saul-goodman-better-call-saul.gif);
+}
+.links > a{
+    color: white;
+    background-color: gray;
+    padding: .2em;
+    margin-left: .3em;
+    margin-bottom: .5em;
+    text-decoration: none;
+}
+.links{
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
